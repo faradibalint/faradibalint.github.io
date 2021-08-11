@@ -98,15 +98,15 @@ blockquote{
     margin:0;
   }
  .wholemain{
-   font-size: 10;
+   font-size: 30px;
  }
   blockquote::before{
-    font-size: 5px;
+    font-size: 10px;
   }  
   blockquote::after{
-    font-size: 5px;
+    font-size: 10px;
   }
   blockquote{
-    font-size: 10px;
+    font-size: 30px;
   }
 }
