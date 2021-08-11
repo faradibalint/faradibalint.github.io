@@ -6,7 +6,7 @@
 }
 .cim{
   background-image:url("kep.jpg");
-  width:2550px;
+  width:auto;
   height:804px;
   display:flex;
   justify-content: center;
