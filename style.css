@@ -4,10 +4,17 @@
   align-items: center;
   flex-direction: column;
 }
+body{
+  margin:0px;
+  padding: 0px;
+}
 .cim{
-  background-image:url("kep.jpg");
-  width:2550px;
-  height:804px;
+  background-image:url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height:719px;
   display:flex;
   justify-content: center;
   align-items: center;
