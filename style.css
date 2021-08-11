@@ -97,9 +97,15 @@ blockquote{
     font-size:50px;
     margin:0;
   }
- .wholemain{
-   font-size: 30px;
- }
+  .wholemain{
+    font-size: 30px;
+  }
+  .szoveg{
+    text-align: center;
+  }
+  ul{
+  margin-left: 50px;
+  }
   blockquote::before{
     font-size: 50px;
   }  
