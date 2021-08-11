@@ -85,3 +85,14 @@ blockquote{
   padding:40px 20px;
   font-size:50px;
 }
+
+@media screen and (max-width: 800px){
+  .helso {
+    font-size: 30;
+    margin:0;  
+  }
+  .hmasodik{
+    font-size:50;
+    margin:0;
+  }
+}
