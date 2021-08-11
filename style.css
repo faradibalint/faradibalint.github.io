@@ -35,7 +35,7 @@ body{
   color: rgb(255, 255, 255);
 }
 .wholemain{
-  text-align: center;
+  text-align: left;
   width: 100vw; 
   font-size:45px;
 }
@@ -45,7 +45,7 @@ body{
 }
 ul{
   margin-right:520px;
-  text-align: center;
+  text-align: left;
 }
 
 blockquote::before{
@@ -101,10 +101,10 @@ blockquote{
    font-size: 30px;
  }
   blockquote::before{
-    font-size: 10px;
+    font-size: 50px;
   }  
   blockquote::after{
-    font-size: 10px;
+    font-size: 50px;
   }
   blockquote{
     font-size: 30px;
