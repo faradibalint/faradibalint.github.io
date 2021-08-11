@@ -35,7 +35,7 @@ body{
   color: rgb(255, 255, 255);
 }
 .wholemain{
-  text-align: left;
+  text-align: center;
   width: 100vw; 
   font-size:45px;
 }
@@ -45,7 +45,7 @@ body{
 }
 ul{
   margin-right:520px;
-  text-align: left;
+  text-align: center;
 }
 
 blockquote::before{
