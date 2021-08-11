@@ -87,12 +87,19 @@ blockquote{
 }
 
 @media screen and (max-width: 800px){
+  .cim
+  {
+    height:100vh;
+  }
   .helso {
-    font-size: 30px;
+    font-size: 30;
     margin:0;  
   }
   .hmasodik{
-    font-size:50px;
+    font-size:50;
     margin:0;
+  }
+  .main{
+    font-size:0.3em !important;
   }
 }
