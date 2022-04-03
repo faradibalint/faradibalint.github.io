@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="quizstyle.css">
+    <title>UniSearch - Preferencies</title>
+</head>
+<body>
+    <div class="container ">
+        <header class="header">
+            <div class="projectnev">UniSearch</div>
+            <h1 id="title">
+                Helps us offer you the best University results!
+            </h1>
+        </header>
+        <form action="" id="survey-form">
+
+            <!-- select section -->
+            <div class="form-group">
+                <p id="quest">What field are you intrested in?</p>
+                <select name="role" required id="dropdown" class="formControl">
+                    <option value disabled selected >Select field of study</option>
+                    <option value="notsure">I'm not sure</option>
+                    <option value="informatics">Informatics</option>
+                    <option value="economy">Economy</option>
+                    <option value="law">Law</option>
+                    <option value="medical">Medical</option>
+                    <option value="science">Science</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="agriculture">Agriculture</option>
+                    <option value="art">Art</option>
+                    <option value="teaching">Teaching</option>
+                    <option value="social">Social</option>
+                </select>
+            </div>
+            <!-- end of select section -->
+
+            <!-- radio button section -->
+            <div class="form-group">
+                <p id="quest">Select your level of education!</p>
+                <label for="">
+                    <input type="radio" name="source" value="hungarianhgs"
+                    class="inputRadio"
+                    checked> Hungarian high-school graduation
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="IBO"
+                    class="inputRadio"
+                    >IBO international Baccalaueate
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="germanhsg"
+                    class="inputRadio"
+                    > German high-school graduation
+                </label>
+            </div>
+            <!-- end of radio button -->
+
+            <!-- Checkbox section -->
+            <div class="form-group">
+                <p id="quest">What subjects you don't like? </p>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="mathematics"> Mathematics
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="literature"> Literature
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="history">  History
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="physics"> Physics
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="chemistry"> Chemistry
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="biology"> Biology
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="informatics"> Informatics
+                </label>
+            </div>
+            <!-- End of checkbox section -->
+            <div class="form-group">
+                <p id="quest">Languge exam/certificate</p>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="englishc1"> English C1
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="englishb2"> English B2
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="germanc1">  German C1
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="germanb2"> German B2
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="frenchc1"> French C1
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="frenchb2"> French B2
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="spanishc1"> Spanish C1
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="spanishb2"> Spanish B2
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="none"> I don't have a language exam.
+                </label>
+            </div>
+            <div class="form-group">
+                <a href="quiz.html">Calculate</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

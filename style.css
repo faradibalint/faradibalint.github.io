@@ -1,0 +1,174 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000;
+  }
+  body{
+    margin:0px;
+    padding: 0px;
+
+  }
+  .cim{
+    background-image:url("https://www.pixelstalk.net/wp-content/uploads/2016/11/Download-Education-Photos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height:719px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-bottom: 30px;
+  }
+  .projectnev{
+    font-size: 200px;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+  }
+  
+  .helso{
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(255, 255, 255);
+  }
+  .hmasodik{
+    font-size:100px;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(0, 0, 0);
+  }
+  .wholemain{
+    text-align: center;
+    width: 100vw; 
+    font-size:45px;
+  }
+  ul{
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  blockquote::before{
+    position:absolute;
+    top:10px;
+    left:20px;
+    content:'"';
+    background:grey;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 100px;
+    
+  
+  }
+  blockquote::after{
+    position:absolute;
+    bottom:0px;
+    right:20px;
+    content:'"';
+    background:grey;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 100px;
+    
+  
+  }
+  blockquote{
+    position:relative;
+    width:100vW;
+    height:100px;
+    text-align:center;
+    background:grey;
+    color:white;
+    font-family: 'Abril Fatface', cursive;
+    margin-left:auto;
+    margin-right:auto;
+    padding:40px 0px;
+    font-size:50px;
+  }
+
+
+  a{
+    
+    position: relative;
+    padding: 27px 45px;
+    margin: 0 15px;
+    color: #21ebff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  a:hover{
+    background: #21ebff;
+    color: #111;
+    box-shadow: 0 0 50px #21ebff;
+    transition-delay: 0.5s;
+  }
+
+  a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #21ebff;
+    border-left: 2px solid #21ebff;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+  }
+
+  a:hover:before{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+  }
+
+  a:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #21ebff;
+    border-right: 2px solid #21ebff;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+  }
+  a:hover:after{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+  }
+  
+  @media screen and (max-width: 800px){
+    .cim
+    {
+      height:100vh;
+    }
+    .helso {
+      font-size: 30px;
+      margin:0;  
+    }
+    .hmasodik{
+      font-size:50px;
+      margin:0;
+    }
+    .wholemain{
+     font-size: 30px;
+    }
+    .button{
+      text-align: center;
+    }
+    blockquote::before{
+      font-size: 50px;
+    }  
+    blockquote::after{
+      font-size: 50px;
+    }
+    blockquote{
+      font-size: 30px;
+    }
+  }
