@@ -163,6 +163,9 @@
     .wholemain{
      font-size: 30px;
     }
+    a{
+      font-size: 10px;
+    }
     .button{
       text-align: center;
     }
