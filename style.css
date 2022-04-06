@@ -201,7 +201,15 @@
      font-size: 17px;
     }
     a{
-      font-size: 6px;
+      font-size: 10px;
+    }
+    a:before{
+      width: 5px;
+      height: 5px;
+    }
+    a:after{
+      width: 5px;
+      height: 5px;
     }
     .button{
       text-align: center;
