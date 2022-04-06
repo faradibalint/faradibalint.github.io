@@ -201,7 +201,8 @@
      font-size: 17px;
     }
     a{
-      font-size: 10px;
+      font-size: 13px;
+      padding: 20px 38px;
     }
     a:before{
       width: 5px;
