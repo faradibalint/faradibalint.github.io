@@ -165,7 +165,16 @@
      font-size: 25px;
     }
     a{
-      font-size: 10px;
+      font-size: 15px;
+      padding: 20px 38px;
+    }
+    a:before{
+      width: 5px;
+      height: 5px;
+    }
+    a:after{
+      width: 5px;
+      height: 5px;
     }
     .button{
       text-align: center;
@@ -201,8 +210,8 @@
      font-size: 17px;
     }
     a{
-      font-size: 13px;
-      padding: 20px 38px;
+      font-size: 12px;
+      padding: 15px 33px;
     }
     a:before{
       width: 5px;
