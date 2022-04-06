@@ -79,14 +79,14 @@ input,select,textarea{
 .header{
     padding: 0 0.625rem;
     margin-bottom: 1.875rem;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-bottom: 30px;
 }
 
-.clue{
-    margin-left: 0.25rem;
-    font-size: 0.9rem;
-    color: #e4e4e4;
-}
 #quest{
     color: rgb(255, 0, 0);
     font-size: 1.5rem;
@@ -99,6 +99,11 @@ form{
 @media (min-width: 480px){
     form{
         padding: 2.5rem;
+    }
+}
+@media (min-width: 300px){
+    form{
+        padding: 1.5rem;
     }
 }
 .form-group{
@@ -131,14 +136,7 @@ form{
     min-width: 1.25rem;
 
 }
-.textarea{
-    width: 100%;
-    padding: 0.75rem;
-    font-size: 1.15rem;
-    outline: none;
-    border-color: blue;
-    border-radius: 5px;
-}
+
 
 a{
     
@@ -206,4 +204,11 @@ a{
     .container{
         max-width: 760px;
     }
+}
+@media (max-width: 500px){
+    .header{
+        font-size: 30px;
+        height:100vh;
+    }
+      
 }
