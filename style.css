@@ -47,6 +47,7 @@
   ul{
     text-align: center;
     color: aliceblue;
+    margin-top: 50px;
   }
   
   blockquote::before{
@@ -208,6 +209,7 @@
     }
     .wholemain{
      font-size: 12px;
+
     }
     a{
       font-size: 10px;
