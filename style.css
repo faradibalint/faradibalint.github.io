@@ -44,6 +44,9 @@
     width: 100vw; 
     font-size:45px;
   }
+  .felsorolas{
+    padding-left: 0;
+  }
   ul{
     text-align: center;
     color: aliceblue;
