@@ -3,8 +3,8 @@
 :root{
     --color-white:#f3f3f3;
     --color-darkblue:#796ec8;
-    --color-darkblue-alpha:rgba(12, 0, 32, 0.836);
-    --color-green:#0300a7;
+    --color-darkblue-alpha:rgba(176, 158, 206, 0);
+    --color-green:#c8c7f300;
 }
 *,*::before,*::after{
     box-sizing: border-box;
@@ -26,7 +26,7 @@ body::before{
     width: 100%;
     z-index: -1;
     background: var(--color-darkblue);
-    background-image: linear-gradient(215deg,rgba(1, 37, 100, 0.8),rgba(50, 211, 104, 0.8)),url(/developer.jpeg);
+    background-image: linear-gradient(215deg,rgba(1, 37, 100, 0.8),rgba(50, 211, 104, 0.8)),url("https://www.pixelstalk.net/wp-content/uploads/2016/11/Download-Education-Photos.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,16 +96,6 @@ form{
     border-radius: 0.25rem;
 }
 
-@media (min-width: 480px){
-    form{
-        padding: 2.5rem;
-    }
-}
-@media (min-width: 300px){
-    form{
-        padding: 1.5rem;
-    }
-}
 .form-group{
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
@@ -195,20 +185,31 @@ a{
     transition-delay: 0s;
   }
 
-@media (min-width:576px){
-    .container{
-        max-width: 540px;
+@media (max-width: 800px){
+    .projectnev{
+        font-size: 100px;
+    }
+    .masodik{
+        font-size: 1rem;
     }
 }
-@media (min-width:800px){
-    .container{
-        max-width: 760px;
-    }
-}
+
+
 @media (max-width: 500px){
-    .header{
-        font-size: 30px;
-        height:100vh;
+    .projectnev{
+        font-size: 80px;
     }
-      
+    .masodik{
+        font-size: 1rem;
+    }
+    label{
+        font-size: 0.95rem;
+    }
+    #quest{
+        font-size: 1.3rem;
+    }
+    .formControl{
+        width: 85%;
+    }
 }
+
