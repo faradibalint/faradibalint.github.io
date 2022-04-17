@@ -126,7 +126,10 @@ form{
     min-width: 1.25rem;
 
 }
-
+.gomb{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 a{
     
@@ -227,5 +230,9 @@ a{
     .button{
         text-align: center;
       }
+    .gomb{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
