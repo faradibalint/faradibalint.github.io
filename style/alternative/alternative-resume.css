@@ -1,0 +1,66 @@
+.active-link {
+    color: #7963c9 !important;
+  }
+  body{
+    background-color: black;
+    color: #ffffff;
+  }
+  .custom-box-left{
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0 0 10px #2d0578, 0 0 20px #2d0578;
+  }
+  .custom-box-right{
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0 0 10px #c03b7d, 0 0 20px #c03b7d;
+  }
+  .education, .experience{
+    color: white;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 767.98px) {
+    .custom-box {
+      width: 70vw; 
+      height: 14vh; 
+      overflow: auto;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .custom-box {
+      width: 30vw;  
+      height: 17vh; 
+    }
+  } 
+  
+  @media (min-width: 992px) {
+    .custom-box {
+      width: 30vw;  
+      height: 17vh;
+    }
+  }
+  
+  .navbar {
+    border-bottom: 1px solid #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  
+  .linktovideo {
+    color: red;
+    font-size: 200%;
+  }
+  .linktovideo:visited {
+    color: rgb(240, 157, 157);
+  }
+  p{
+    font-size: 180%;
+  }
+  h1, h2{
+    font-size: 400%;
+  }

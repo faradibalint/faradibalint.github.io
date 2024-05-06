@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balint Faradi - Video description</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style/templatestyle.css" rel="stylesheet">
+  <link id="stylesheet" href="style/style-video.css" rel="stylesheet">
+  <link href="style/print-style/print-video.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav id="skiptocontent">
+      <p class="visuallyhidden">Jump on the page</p>
+      <a href="#content">Jump to the content</a>
+    </nav>
+    <nav class="navbar navbar-expand-md navbar-dark text-center">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white fw-bold" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active-link fw-bold" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center">
+      <button class="btn btn-light rounded button" id="changeStylesheetButton" onclick="changeStylesheet()">Alternative View</button>
+    </div>
+  </header>
+
+  <main id="content">
+    <div class="container">
+      <h1 class="text-center my-5">Description of the video</h1>
+      <article>
+        <h2 class="text-center mb-2">Summary:</h2>
+        <p>The video presents the services provided by us. It explains what we do in details trying to appeal to the
+          clients. The services are depicted with different animations.</p>
+      </article>
+      <article>
+        <h2 class="text-center mt-5 mb-2">The full subtitles for the video:</h2>
+        <p>Do you have a business but you don't
+          know how to create a website? Don't worry
+          our team can help you. Take your business
+          to the next level. Our creative team are
+          expert in: graphic design - create awesome
+          websites, web development - developing
+          stunning designs, responsive design - make
+          your website unique, ecommerce, online
+          payments - accept payments directly on the
+          site, mobile e-commerce - make your shop
+          mobile, mobile payments - accepts payments
+          directly over phone, social media and
+          online marketing - connect to all social
+          sites, search engine optimizer - get your
+          website on Google, providing solutions
+          for the world best customer service, data
+          security - protect your client information
+          and much more. So what you are waiting
+          for?</p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="text-center bg-dark text-white mt-5">Copyright - Balint Faradi - 2024</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function changeStylesheet() {
+      var stylesheet = document.getElementById('stylesheet');
+      if (stylesheet.href.endsWith('style/alternative/alternative-video.css')) {
+        stylesheet.href = 'style/style-video.css';
+      } else {
+        stylesheet.href = 'style/alternative/alternative-video.css';
+      }
+    }
+  </script>
+</body>
+
+</html>

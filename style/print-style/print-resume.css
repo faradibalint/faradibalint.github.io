@@ -1,0 +1,30 @@
+@media print {
+    body {
+      background-image: none;
+      background-color: white;
+      color: black;
+    }
+    header, footer {
+        display: none;
+      }
+    .custom-box-left, .custom-box-right {
+      background: white;
+      color: black;
+      box-shadow: none;
+    }
+    .education, .experience {
+      color: black;
+    }
+    .video-container{
+        display: none;
+    }
+    img {
+        width: 50%;
+        height: auto;
+      }
+    .picture-container{
+        margin:5rem;
+        padding:5rem;
+    }
+    
+  }

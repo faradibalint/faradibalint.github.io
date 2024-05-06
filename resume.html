@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balint Faradi - Resume</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style/templatestyle.css" rel="stylesheet">
+  <link id="stylesheet" href="style/style-resume.css" rel="stylesheet">
+  <link href="style/print-style/print-resume.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav id="skiptocontent">
+      <p class="visuallyhidden">Jump on the page</p>
+      <a href="#content">Jump to the content</a>
+    </nav>
+    <nav class="navbar navbar-expand-md navbar-dark text-center">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white fw-bold" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active-link fw-bold" aria-current="page" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center">
+      <button class="btn btn-light rounded button" id="changeStylesheetButton" onclick="changeStylesheet()">Alternative View</button>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="container text-center mt-5 pt-5">
+      <h1>My Resume</h1>
+      <p>Precision in Pixels, Excellence in Execution: <br> Elevating Your Digital Presence with Purposeful Coding.</p>
+    </section>
+
+    <figure class="container text-center my-5 py-5 picture-container">
+      <img src="pictures/Resume/Resume.avif" class="img-fluid"
+        alt="The content of a desk: a laptop, notebook, calculator, mug. Different programming languages in the background.">
+    </figure>
+
+    <div class="container text-center">
+      <div class="row">
+        <article class="col-md-6 pe-md-5">
+          <h2 class="education">Education</h2>
+          <div class="border border-dark custom-box-left mx-auto my-5 p-3">
+            <p>2023 - <br>
+              Computer Science <br>
+              BSC at ELTE
+            </p>
+          </div>
+          <div class="border border-dark custom-box-left mx-auto my-5 p-3">
+            <p>2015 - 2023 <br>
+              Infomatics - Mathematics <br>
+              at Kazinczy Ferenc Gymnasium</p>
+          </div>
+        </article>
+        <article class="col-md-6 ps-md-5">
+          <h2 class="experience">Experience</h2>
+          <div class="border border-dark custom-box-right mx-auto my-5 p-3">
+            <p>2022 <br>
+              Software - & Application developer / IT intern <br>
+              at Eurofins Food&Feed Testing Hungary</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <article class="container text-center my-5 py-5 video-container">
+      <h2 class="mb-4">About us</h2>
+      <video class="ratio ratio-16x9" controls src="Video/Video.mp4" poster="pictures/Resume/programming-language-1.png"
+        width="750"></video>
+      <aside>
+        <a class="linktovideo" href="video.html">The description and subtitles for the video.</a>
+      </aside>
+    </article>
+
+  </main>
+
+  <footer>
+    <div class="text-center bg-dark text-white mt-5">Copyright - Balint Faradi - 2024</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function changeStylesheet() {
+      var stylesheet = document.getElementById('stylesheet');
+      if (stylesheet.href.endsWith('style/alternative/alternative-resume.css')) {
+        stylesheet.href = 'style/style-resume.css';
+      } else {
+        stylesheet.href = 'style/alternative/alternative-resume.css';
+      }
+    }
+  </script>
+</body>
+
+</html>

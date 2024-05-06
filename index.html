@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balint Faradi - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style/templatestyle.css" rel="stylesheet">
+  <link id="stylesheet" href="style/style.css" rel="stylesheet">
+  <link href="style/print-style/print-index.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav id="skiptocontent">
+      <p class="visuallyhidden">Jump on the page</p>
+      <a href="#content">Jump to the content</a>
+    </nav>
+    <nav class="navbar navbar-expand-md navbar-light text-center">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-secondary active-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bold" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bold" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bold" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center">
+      <button class="btn btn-dark rounded button" id="changeStylesheetButton" onclick="changeStylesheet()">Alternative View</button>
+    </div>
+  </header>
+  <main id="content">
+    <section class="container text-center mt-5 pt-5">
+      <strong class="welcome">Welcome!</strong>
+      <h1>I'm Balint Faradi</h1>
+      <p><strong>Application - Web - Software</strong></p>
+    </section>
+
+    <section class="container mt-5 custom-padding">
+      <h2 class="text-center mb-5">Services</h2>
+      <div class="row text-center">
+        <article class="col-lg-4 col-md-12">
+          <div class="row">
+            <figure class="col-lg-12 col-md-6">
+              <a href="pictures/Home/Application_developement.jpg" target="_blank"><img
+                  src="pictures/Home/Application_developement2.jpg" class="img-fluid"
+                  alt="A picture of a mobile phone with different programming languages in the background."></a>
+            </figure>
+            <div class="col-lg-12 col-md-6 align-self-center mt-4">
+              <h3>Application development</h3>
+              <ul>
+                <li>Java/Python/C++</li>
+                <li>Spring Boot/Django</li>
+                <li>Multiplatform</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="col-lg-4 col-md-12">
+          <div class="row">
+            <figure class="col-lg-12 col-md-6 order-md-2 order-lg-1">
+              <img src="pictures/Home/Web_develop.jpg" class="img-fluid"
+                alt="A vectorgraphics of a website being built by workers that represents web-developement">
+            </figure>
+            <div class="col-lg-12 col-md-6 align-self-center order-md-1 order-lg-2 mt-4">
+              <h3>Web development</h3>
+              <ul>
+                <li>Perosnal/Business</li>
+                <li>Full stack development</li>
+                <li>HTML5/CSS3/JS/PHP</li>
+                <li>Bootstrap/Angular</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="col-lg-4 col-md-12">
+          <div class="row">
+            <figure class="col-lg-12 col-md-6">
+              <a href="pictures/Home/Business_software_deve.jpg" target="_blank"><img
+                  src="pictures/Home/Business_software_develop2.jpg" class="img-fluid"
+                  alt="A laptop and mobile phone with business applications running on them"></a>
+            </figure>
+            <div class="col-lg-12 col-md-6 align-self-center mt-4">
+              <h3>Business Software</h3>
+              <ul>
+                <li>Java EE</li>
+                <li>ASP.NET Core</li>
+                <li>Cloud Service</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="text-center bg-dark text-white mt-5">Copyright - Balint Faradi - 2024</div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function changeStylesheet() {
+      var stylesheet = document.getElementById('stylesheet');
+      if (stylesheet.href.endsWith('style/alternative/alternative-index.css')) {
+        stylesheet.href = 'style/style.css';
+      } else {
+        stylesheet.href = 'style/alternative/alternative-index.css';
+      }
+    }
+  </script>
+</body>
+
+</html>

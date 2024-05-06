@@ -1,0 +1,20 @@
+.active-link {
+    color: #7963c9 !important;
+  }
+body{
+    background-color: black;
+    color: #ffffff;
+}
+
+  .navbar {
+    border-bottom: 1px solid #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  
+main{
+    font-size: 300%;
+}
+h1,h2{
+    font-size: 150%;
+}

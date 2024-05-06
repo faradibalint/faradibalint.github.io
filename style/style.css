@@ -1,0 +1,29 @@
+body{
+  
+  background-image: url(/pictures/Home/white-concrete-wall.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  backdrop-filter: blur(0.8px) brightness(1.05);
+  /*background-color: white;*/
+}
+
+.custom-padding {
+    padding-top: 10rem;
+  }
+.align-self-center ul {
+  padding-left: 3rem;
+  text-align: left;
+  list-style-position: inside;
+  font-size: 130%;
+}
+
+.welcome{
+  font-size: 210%;
+}
+strong{
+  font-size: 130%;
+}
+h1{
+  font-size: 300%;
+}

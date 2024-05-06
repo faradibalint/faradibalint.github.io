@@ -1,0 +1,26 @@
+@media print {
+  
+    body {
+      background-image: none;
+      background-color: white;
+    }
+    header, footer {
+        display: none;
+      }
+    img {
+      width: 50%;
+      height: auto;
+    }
+    .custom-padding {
+      padding-top: 1rem;
+    }
+    .welcome, strong, h1, ul li {
+      font-size: 100%;
+    }
+    .align-self-center ul {
+        padding-left: 10rem;
+        list-style-position: inside;
+        font-size: 100%;
+      }
+      
+  }

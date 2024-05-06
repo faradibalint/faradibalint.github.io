@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+    color: black;
+}
+  
+.custom-padding {
+padding-top: 10rem;
+}
+
+.align-self-center ul {
+padding-left: 3rem;
+text-align: left;
+list-style-position: inside;
+font-size: 200%;
+}
+
+.welcome {
+font-size: 300%;
+}
+
+strong {
+font-size: 200%;
+}
+
+h1,h2 {
+font-size: 400%;
+}
